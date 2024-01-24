@@ -1,0 +1,16 @@
+.logo{
+    max-height: 35px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #fff;
+}
+button img{
+    width: 50px;
+}
+button{
+    border:solid 1px #747272;
+}

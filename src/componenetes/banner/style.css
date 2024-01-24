@@ -1,0 +1,42 @@
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    height: 90vh;
+    width: 100%;
+    
+
+    background-color: #fff;
+
+}
+.imagembanner{   
+    width: 50%;
+    background-image: url('../../assets/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafbfc;
+    height: 90vh;
+}
+.banner-text p,
+.banner-text h2,
+.banner-text span{
+    color: #022144;
+
+}
+.banner-text span{
+    font-weight: bold;
+}
+
+
+
+

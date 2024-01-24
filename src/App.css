@@ -1,0 +1,28 @@
+/*
+cores usadas no tema claro
+
+#022144
+#fafbfc
+#32333c
+#f6f8fc
+#8a8fa3
+#fff
+#feb633
+
+cores usadas no tema escuro
+
+#022144
+#fafbfc
+#CCCCCC
+#9F9F9F
+#393838
+#252525
+#feb633
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
