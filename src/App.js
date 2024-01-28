@@ -12,8 +12,9 @@ function App() {
       <Banner/>
       <Main/>
       <Rodape/>
+   
     </div>
-  );
+  )
 }
 
 export default App;

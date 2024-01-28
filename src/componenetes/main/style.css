@@ -1,0 +1,25 @@
+.text_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #f6f8fc;
+}
+.text_main::before{
+    content: "";
+    margin: 0 auto;
+    width: 100px;
+    height: 4px;
+    background-color: #feb633;
+
+}
+.text_main h2,
+.text_main p{
+    font-family: 'Poppins';
+}
+.text_main h2{
+    color: #32333c;
+}
+.text_main p{
+    color: #8a8fa3;
+}
