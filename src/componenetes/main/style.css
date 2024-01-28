@@ -1,11 +1,12 @@
-.text_main{
+.text_main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: #f6f8fc;
 }
-.text_main::before{
+
+#text_main::before {
     content: "";
     margin: 0 auto;
     width: 100px;
@@ -13,13 +14,23 @@
     background-color: #feb633;
 
 }
+
+#text_main p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 770px;
+    margin-bottom: 70px;
+}
+
 .text_main h2,
-.text_main p{
+.text_main p {
     font-family: 'Poppins';
 }
-.text_main h2{
+
+.text_main h2 {
     color: #32333c;
 }
-.text_main p{
+
+.text_main p {
     color: #8a8fa3;
 }

@@ -8,7 +8,7 @@ import Card from '../cards'
 export default function Main() {
     return (
         <section>
-        <div className='text_main'>
+        <div className='text_main' id='text_main'>
           <h2>Experiências de Trabalho</h2>
           <p>
             Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de Sites e Marketing Digital,

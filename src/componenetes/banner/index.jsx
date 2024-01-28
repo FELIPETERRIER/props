@@ -1,24 +1,15 @@
 import './style.css';
 
+export default function SecaoBanner() {
 
-
-export default function Banner() {
-    return (
-      <section>
-            
-      <div> 
-        <div className='imagemBanner'>
-          
-        </div>
-      </div>
-      <div className='banner-text'>
+  return(
+    <section id="secaoBanner">
+      <div id="imagemDeFundo" className="fundo-modo-claro"></div>
+      <div className="texto-secaoBanner">
         <p>BRANDING / UI / UX / TECNOLOGIA</p>
         <h2>Agência de Branding</h2>
         <span>e design digital</span>
       </div>
     </section>
-    );
-  }
-  
-  
-  
+  )
+}

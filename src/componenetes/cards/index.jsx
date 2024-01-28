@@ -1,18 +1,13 @@
 import './style.css';
-import React from 'react';
-
-
-
 
 export default function Card(props) {
-    return (
-      <div>
-      <p>{props.data}</p>
+
+  return(
+    <div id="card" className="card-modo-claro">
+      <p className="primeiroParagrafo">{props.data}</p>
       <h4>{props.titulo}</h4>
-      <p>{props.empresa}</p>
+      <p className="segundoParagrafo">{props.empresa}</p>
       <p>{props.paragrafo}</p>
     </div>
-    );
-  }
-  
-  
+  );
+}
