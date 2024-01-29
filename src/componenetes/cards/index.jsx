@@ -10,4 +10,4 @@ export default function Card(props) {
       <p>{props.paragrafo}</p>
     </div>
   );
-}
+} 
